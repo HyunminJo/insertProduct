@@ -1,13 +1,13 @@
-# 크루메이트 인턴
+## 크루메이트 인턴
 
 <br/>
 
-## 작성자 : 조현민
-## 인턴 기간 : 2020년 10 5일 ~ 2021년 01월 04일
+### 작성자 : 조현민
+### 인턴 기간 : 2020년 10 5일 ~ 2021년 01월 04일
 
 <br/>
 
-# Development Environment(개발 환경)
+## Development Environment(개발 환경)
 <table>
  <tr>
    <td><b>Development tools</b></td>
@@ -31,6 +31,7 @@
  </tr>
 </table>
 
+![캡처](https://user-images.githubusercontent.com/66407414/103542154-dac5c600-4edf-11eb-9f4f-5e71e97f9ea7.PNG)
 <br/>
 
 # 1. 게시판
