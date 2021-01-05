@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Price">
+
+    <insert id="insertPrdtPrice" parameterType="ProductPrice">
+        /* Price.insertPrdtPrice*/
+        INSERT INTO tb_product_price
+        (prdt_price_seq, prdt_dscnt_price, dscnt_start_dt, dscnt_end_dt,
+        rgst_dtm, prdt_code)
+        VALUES(product_price_sq.nextVal, #{prdtDscntPrice},
+        #{dscntStartDt}, #{dscntEndDt}, TO_DATE(#{rgstDtm}, 'yyyy-MM-dd
+        HH24:mi:ss'), #{prdtCode})
+    </insert>
+
+</mapper>
